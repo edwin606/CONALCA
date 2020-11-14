@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #f2f2f2;
+}
+.contenedor1{
+	width: 100%;
+	height: 15px;
+	background:orange;
+}
+.contenedor{
+	width: 100%;
+	height: 15px;
+	background:orange;
+}
+.centrado{
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.cuerpo{
+	width: 100%;
+	height: 56px;
+	background:blue;
+	display: flex;
+}
+.ladoa{
+	width: 30%;
+	height: 56px;
+	background:orange;
+}
+.ladob{
+	width: 40%;
+	height: 20px;
+	background:blue;
+}
+.ladoc{
+	width: 30%;
+	height: 56px;
+	background:orange;
+}
+.jumbotron{
+	background-image: url(../img/azul1.jpg);
+	background-size: cover;
+	margin-bottom: 0;
+}
+.titulos{
+	color: white;
+}
+.titulos2{
+	color: orange;
+}
+.Contactos{
+	width: 100%;
+	height: 200px;
+	background:orange;
+	display: flex;
+}
+.derechoo{
+	width: 50%;
+	height: 200px;
+	background:orange;
+}
+.izquierdoo{
+	width: 50%;
+	height: 200px;
+	background:orange;
+} 
+.margen{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.margen1{
+	margin-top: 14px;
+}
+.margen2{
+	margin-top: 800px;
+}
+.btn-primario{
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+	margin: 10px;
+}
+.btn-primario:hover{
+	color: #ff0;
+}
